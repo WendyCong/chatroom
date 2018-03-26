@@ -57,7 +57,7 @@ bool LoginModel::sendEmail(string mail)
     CSendEmail email;
     email.setSmtpServer("smtp.163.com");
     email.setAuthName("18292090320@163.com");
-    email.setAuthPwd("lch19961024");
+    email.setAuthPwd("**********");
     email.setDestEmail(mail);
     email.setEmailText(key);
     if(email.sendEmail())
